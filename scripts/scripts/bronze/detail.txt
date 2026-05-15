@@ -1,1 +1,10 @@
-detail.
+Purpose of Dropping Tables
+
+Tables are dropped before creating them to avoid duplicate object errors and to ensure the latest schema changes are applied properly.
+
+In Data Warehouse projects, table structures may change frequently such as:
+- adding new columns
+- changing datatypes
+- modifying schemas
+
+Dropping and recreating tables helps maintain a clean environment during development and testing.
